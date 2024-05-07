@@ -61,3 +61,20 @@ references or expertly colourized examples. This qualitative analysis will help 
 models' ability to reproduce realistic skin tones, clothing colours, and background
 elements, providing a comprehensive understanding of their strengths and areas for
 improvement.
+
+**Conclusion:**
+
+After extensive testing and analysis, it was found that the RGB version consistently produced
+better results compared to the LAB version. The RGB version showed more accurate and
+vibrant colorizations, capturing finer details and nuances in the images. This superior
+performance can be attributed to the RGB colour space's ability to represent a wider range of
+colours and its compatibility with the model's learning process. Overall, the evaluation clearly
+demonstrates the advantages of using the RGB version of the Pix2Pix model for colorization
+tasks. This clearly demonstrates that the RGB version outperformed the LAB version.
+
+This conclusion is supported by the TensorBoard graphs available in my 
+notebooks, which show consistently lower losses for the RGB version. Visually, the RGB
+predicted images exhibit clearer and better quality colorizations, even though they may
+not always reproduce the exact colours present in the original images. However, the
+RGB version often matches the skin tone of the portraits, effectively bringing them back
+to life.
